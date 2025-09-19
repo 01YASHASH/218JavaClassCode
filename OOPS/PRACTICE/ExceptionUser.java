@@ -1,4 +1,11 @@
 package PRACTICE;
+
+class InvalidEmployeeId extends Exception {
+    public InvalidEmployeeId(String message) {
+        super(message);
+    }
+}
+
 class Employee{
     int emp_id;
     String name;
